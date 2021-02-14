@@ -1,0 +1,11 @@
+.hero-content h1 {
+   color: #333 !important ;
+}
+.hero-content h1 em {
+font-style: normal !important;
+   color: #000  !important;
+}
+.brand-logo {
+   max-width: 30%;
+   margin-bottom:30px;
+}
