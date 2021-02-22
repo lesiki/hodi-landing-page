@@ -18,6 +18,7 @@
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="./css/settings.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/cookies-eu-banner.default.css">
   <link rel="stylesheet" href="./css/hodi.css">
   <script type="text/javascript">
     window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
@@ -61,6 +62,11 @@
     </div>
   </div>
   <div class="shape-holder hero-shape" data-aos="fade-right" data-aos-once="true"><img src="image/hero-orange-shape.svg" alt=""></div>
+  <div id="cookies-eu-banner" style="display: none;">
+    By continuing to visit this site, you accept the use of cookies for statistical purposes.
+    <button id="cookies-eu-reject">Reject</button>
+    <button id="cookies-eu-accept">Accept</button>
+  </div>
 </div>
   <!-- Vendor JS-->
   <script src="./plugins/jquery/jquery.min.js"></script>
@@ -75,6 +81,12 @@
 
   <!-- Custom JS -->
   <script src="./js/active.js"></script>
+  <script src="js/cookies-eu-banner.js"></script>
+  <script>
+    new CookiesEuBanner(function () {
+      // Your code to launch when user accept cookies
+    });
+  </script>
 </body>
 
 </html>

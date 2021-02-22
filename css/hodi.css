@@ -9,3 +9,8 @@ font-style: normal !important;
    max-width: 30%;
    margin-bottom:30px;
 }
+#cookies-eu-banner {
+   position:fixed;
+   bottom:0;
+   width:100%;
+}
