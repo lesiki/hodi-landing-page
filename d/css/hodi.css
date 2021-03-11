@@ -1,15 +1,16 @@
 body {
     background-color: #f6ae2d;
-    min-height:100vh;
+    min-height:95vh;
 }
 .vertical-spacer {
     min-height:3em;
 }
 #content {
     padding: 2vh 8vw;
+    min-height:100vh;
 }
 #hodi-logo {
-    min-width: 25%;
+    min-width: 15%;
 }
 .headline-font {
     font-family: 'Asap', sans-serif;
@@ -18,13 +19,31 @@ body {
 span.header-em {
     font-weight: bold;
 }
+#superhero-img {
+    min-width:100%;
+    padding-top:2em;
+}
 #main-title {
-    font-size:5.5em !important;
     color: #310a31;
+}
+#subtitle {
+    margin-top:0.3em;
+    color: #291529;
 }
 #cta {
     background-color: #310a31;
     border:none;
     color:#fff;
     font-size:2em;
+}
+#footer-row {
+    min-height:5vh;
+    text-align: center;
+    width:100%;
+    color: #555;
+    font-size:0.9em;
+    vertical-align: bottom;
+}
+#footer-row a {
+    color: #333;
 }
