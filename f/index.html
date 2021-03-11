@@ -39,6 +39,11 @@
         drift.SNIPPET_VERSION = '0.3.1';
         drift.load('tmwbhcn32ncs');
     </script>
+    <script>
+        var triggerChat = function() {
+            drift.openChat();
+        };
+    </script>
     <!-- End of Async Drift Code -->
 </head>
 
@@ -54,7 +59,7 @@
                         class="header-em">Superpowers</span></h1>
                 <h2 class="subtitle is-3 headline-font" id="subtitle">Hodi provides inside sales talent with fast
                     ramp-up and clear results, so you can spend less time cold-emailing and more time selling.</h2>
-                <button class="button is-large is-inverted" id="cta">Get In Touch</button>
+                <button onclick="triggerChat()" class="button is-large is-inverted" id="cta">Get Started</button>
             </div>
             <div class="column">
                 <img id="superhero-img" src="image/Powerful-bro.svg" alt="Superhero">
