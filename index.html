@@ -2,91 +2,73 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hodi</title>
-  <!-- Plugins CSS -->
-  <link rel="stylesheet" href="./plugins/bootstrap-4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./plugins/meanmenu/meanmenu.css">
-  <link rel="stylesheet" href="./plugins/slick-1.8.1/slick.css">
-  <link rel="stylesheet" href="./plugins/fancybox-master/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="./plugins/aos-animation/aos.css">
-  <!-- fonts -->
-  <link rel="stylesheet" href="./fonts/ep-icon-fonts/css/style.css">
-  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.min.css">
-  <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="./css/settings.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/cookies-eu-banner.default.css">
-  <link rel="stylesheet" href="./css/hodi.css">
-  <script type="text/javascript">
-    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
-    heap.load("3878152593");
-  </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/hodi.css">
+    <link href="//db.onlinewebfonts.com/c/46ff89869f85ebaa204775e329014a35?family=TextaAltW00-Light" rel="stylesheet"
+        type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap" rel="stylesheet">
+    <title>Hodi</title>
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
+
+        !function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function (t) {
+                        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('tmwbhcn32ncs');
+    </script>
+    <script>
+        var triggerChat = function() {
+            drift.openChat();
+        };
+    </script>
+    <!-- End of Async Drift Code -->
 </head>
 
-<body >
-<div class="site-wrapper">
-<!-- Header Starts -->
-  <header class="site-header position-relative">
-        <div class="container">
-            <div class="row justify-content-center align-items-center position-relative">
-                <div class="col-sm-3 col-6 col-lg-2 col-xl-2 order-lg-1">
-                  <!-- Brand Logo -->
+<body>
+    <div id="content">
+        <div class="vertical-spacer"></div>
+        <div class="columns">
+            <div class="column">
+                <div class="block">
+                    <img id="hodi-logo" src="image/hodi-with-transparent-connector-no-bg-colour-1.svg" alt="Hodi Logo">
                 </div>
-                <div class="col-sm-8 col-lg-2 col-xl-2 d-none d-sm-block order-lg-3">
-                </div>
-                <!-- Menu Block -->
-                <div class="col-sm-1 col-6 col-lg-6 col-xl-6 offset-lg-2  position-static order-lg-2">
-                </div>
+                <h1 class="title is-1 headline-font" id="main-title">Give your sales team <span
+                        class="header-em">Superpowers</span></h1>
+                <h2 class="subtitle is-3 headline-font" id="subtitle">Hodi provides inside sales talent with fast
+                    ramp-up and clear results, so you can spend less time cold-emailing and more time selling.</h2>
+                <button onclick="triggerChat()" class="button is-large is-inverted" id="cta">Get Started</button>
+            </div>
+            <div class="column">
+                <img id="superhero-img" src="image/Powerful-bro.svg" alt="Superhero">
             </div>
         </div>
-        <div class="shape-holder header-shape" data-aos="fade-down" data-aos-once="true"><img src="image/header-shape.svg" alt=""></div>
-  </header>
-
-<!-- Hero-Area -->
-<div class="hero-area position-relative">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="offset-xl-1 offset-lg-1 offset-md-2 col-xl-10 col-lg-10 col-md-8 col-12">
-        <div class="hero-content">
-                  <div class="brand-logo">
-                      <a href=""><img src="image/hodi-no-bg.png" alt="" /></a>
-                  </div>
-          <h1>Give your Sales Team <em>Superpowers</em></h1>
-          <p>Hodi provides inside sales talent with fast ramp-up and clear results, so you can spend less time cold-emailing and more time selling.</p>
-          <div class="hero-btn"><a href="mailto:info@hodi.co" class="btn btn--orange btn--hover-shine">Get in Touch</a></div>
-        </div>
-      </div>
     </div>
-  </div>
-  <div class="shape-holder hero-shape" data-aos="fade-right" data-aos-once="true"><img src="image/hero-orange-shape.svg" alt=""></div>
-  <div id="cookies-eu-banner" style="display: none;">
-    By continuing to visit this site, you accept the use of cookies for statistical purposes.
-    <button id="cookies-eu-reject">Reject</button>
-    <button id="cookies-eu-accept">Accept</button>
-  </div>
-</div>
-  <!-- Vendor JS-->
-  <script src="./plugins/jquery/jquery.min.js"></script>
-  <script src="./plugins/jquery/jquery-migrate.min.js"></script>
-  <script src="./plugins/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
-
-  <!-- Plugins JS -->
-  <script src="./plugins/meanmenu/jquery.meanmenu.js"></script>
-  <script src="./plugins/slick-1.8.1/slick.min.js"></script>
-  <script src="./plugins/fancybox-master/jquery.fancybox.min.js"></script>
-  <script src="./plugins/aos-animation/aos.js"></script>
-
-  <!-- Custom JS -->
-  <script src="./js/active.js"></script>
-  <script src="js/cookies-eu-banner.js"></script>
-  <script>
-    new CookiesEuBanner(function () {
-      // Your code to launch when user accept cookies
-    });
-  </script>
+    <div id="footer-row">
+        <span>Copyright 2021 Hodi. <a href="https://storyset.com/people">Illustration by Freepik Storyset</a></span>
+    </div>
 </body>
 
 </html>
