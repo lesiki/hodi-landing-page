@@ -1,0 +1,30 @@
+body {
+    background-color: #f6ae2d;
+    min-height:100vh;
+}
+.vertical-spacer {
+    min-height:3em;
+}
+#content {
+    padding: 2vh 8vw;
+}
+#hodi-logo {
+    min-width: 25%;
+}
+.headline-font {
+    font-family: 'Asap', sans-serif;
+    font-weight:lighter;
+}
+span.header-em {
+    font-weight: bold;
+}
+#main-title {
+    font-size:5.5em !important;
+    color: #310a31;
+}
+#cta {
+    background-color: #310a31;
+    border:none;
+    color:#fff;
+    font-size:2em;
+}
