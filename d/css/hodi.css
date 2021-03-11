@@ -1,13 +1,13 @@
 body {
     background-color: #f6ae2d;
-    min-height:95vh;
+    min-height:100vh;
 }
 .vertical-spacer {
     min-height:3em;
 }
 #content {
     padding: 2vh 8vw;
-    min-height:100vh;
+    min-height:95vh;
 }
 #hodi-logo {
     min-width: 15%;
@@ -42,7 +42,10 @@ span.header-em {
     width:100%;
     color: #555;
     font-size:0.9em;
+}
+#footer-row span {
     vertical-align: bottom;
+    padding-top:auto;
 }
 #footer-row a {
     color: #333;
