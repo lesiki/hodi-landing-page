@@ -14,6 +14,60 @@
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
    width="372.311"
    height="323.07797">
+   <style>
+   #svg1214 {
+      overflow:visible;
+   }
+   @keyframes easeRightward {
+  0% {
+    transform: translateX(-15%);
+  }
+  100% {
+    transform: translateX(5%);
+  }
+}
+   @keyframes easeLeftward {
+  0% {
+    transform: translateX(6%);
+  }
+  100% {
+    transform: translateX(-4%);
+  }
+}
+   @keyframes zoomOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+   #g1124, #path1120, #path1126, #path1128 {
+      animation: 25s ease-out 0s 1 easeRightward;
+        -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+   }
+   #path1132, #path1134 {
+      animation: 25s ease-out 0s 1 easeLeftward;
+        -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+   }
+   #path1115, #path1117 {
+      animation: 25s ease-out 0s 1 zoomOut;
+      transform-origin: center;
+        -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+   }
+   </style>
   <metadata
      id="metadata1220">
     <rdf:RDF>
