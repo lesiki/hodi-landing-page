@@ -52,3 +52,21 @@ span.header-em {
 #footer-row a {
     color: #333;
 }
+.job-opening {
+    padding:10px;
+    margin:5px;
+    border: 1px solid #888;
+    border-radius:4px;
+    background: #fafafa;
+}
+.job-opening h3 {
+    margin-top: 0.5em;
+}
+.job-opening ul li {
+    margin-left: 1.2em;
+    list-style-type: disc;
+}
+.job-opening p {
+    margin-top:0.3em;
+    margin-bottom:0.3em;
+}
